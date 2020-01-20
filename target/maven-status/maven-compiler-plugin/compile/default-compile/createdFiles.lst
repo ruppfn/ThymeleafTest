@@ -1,3 +1,4 @@
+com\example\handlingformsubmission\GreetingRepository.class
 com\example\handlingformsubmission\WebSecurityConfig.class
 com\example\handlingformsubmission\HandlingFormSubmissionApplication.class
 com\example\handlingformsubmission\Greeting.class

@@ -10,6 +10,7 @@
 	<p th:text="'content: ' + ${greeting.content}"/>
 	<a href="/greeting">Submit another message</a>
 	<br/><br/>
+	<a href="/greeting/find/">View all the messages</a>
 	<form th:action="@{/logout}" method="post">
         <input type="submit" value="Sign Out"/>
     </form>
