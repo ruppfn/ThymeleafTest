@@ -17,6 +17,9 @@ public class GreetingController implements WebMvcConfigurer{
 	@Override
 	public void addViewControllers(ViewControllerRegistry registry){
 		registry.addViewController("/result").setViewName("result");
+		registry.addViewController("/home").setViewName("home");
+		registry.addViewController("/").setViewName("home");
+		registry.addViewController("/login").setViewName("login");
 	}
 
 	@GetMapping("/greeting")
